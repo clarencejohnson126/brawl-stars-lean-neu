@@ -101,8 +101,15 @@ const App: React.FC = () => {
   return (
     <div className="w-full h-screen bg-brawl-pattern relative overflow-hidden flex flex-col justify-between p-2 md:p-4">
 
+      {/* --- CINEMA TITLE --- */}
+      <div className="absolute top-4 left-1/2 -translate-x-1/2 z-40">
+        <h1 className="cinema-title text-5xl md:text-6xl text-yellow-400 uppercase">
+          Leans BRAWLER
+        </h1>
+      </div>
+
       {/* --- TOP HUD --- */}
-      <header className="flex justify-between items-start z-30">
+      <header className="flex justify-between items-start z-30 pt-16">
 
         {/* Profile Section */}
         <div className="flex items-center gap-4">
